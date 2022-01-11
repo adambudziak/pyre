@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyre"
+version = "0.1.0"
+description = ""
+authors = ["Adam Budziak <adambudziak@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+uvicorn = "^0.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
