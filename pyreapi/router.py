@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-from pyre.injector import DependencyInjector
-from pyre.request import Request, Response
-from pyre.serializer import Serializer
+from pyreapi.injector import DependencyInjector
+from pyreapi.request import Request, Response
+from pyreapi.serializer import Serializer
 
 
 class Router:

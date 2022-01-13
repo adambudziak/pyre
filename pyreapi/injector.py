@@ -2,7 +2,7 @@ import inspect
 from abc import ABC, abstractmethod
 from typing import Callable, Any
 
-from pyre.request import Request
+from pyreapi.request import Request
 
 
 class DependencyInjector(ABC):

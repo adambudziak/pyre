@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyre"
+name = "pyreapi"
 version = "0.1.0"
 description = ""
 authors = ["Adam Budziak <adambudziak@protonmail.com>"]
@@ -10,6 +10,7 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.16.0"
+pytest = "^6.2.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

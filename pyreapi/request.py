@@ -1,4 +1,4 @@
-from pyre.serializer import Serializer
+from pyreapi.serializer import Serializer
 
 
 class Response:

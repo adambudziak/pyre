@@ -1,6 +1,6 @@
 from typing import TypedDict
 
-from pyre.router import Router
+from pyreapi.router import Router
 
 
 class Pyre:

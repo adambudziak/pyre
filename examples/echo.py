@@ -2,11 +2,11 @@ import dataclasses
 import json
 from dataclasses import dataclass
 
-from pyre.application import Scope, Pyre
-from pyre.injector import Injector
-from pyre.request import Request
-from pyre.router import Router
-from pyre.serializer import TextSerializer, JSONSerializer
+from pyreapi.application import Scope, Pyre
+from pyreapi.injector import Injector
+from pyreapi.request import Request
+from pyreapi.router import Router
+from pyreapi.serializer import TextSerializer, JSONSerializer
 
 
 @dataclass
